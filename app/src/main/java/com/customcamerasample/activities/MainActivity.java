@@ -249,6 +249,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         float y = mGravity[1];
         float z = mGravity[2];
 
+        // showing axis in text
         xText.setText("X : "+x);
         yText.setText("Y : "+y);
         zText.setText("Z : "+z);
